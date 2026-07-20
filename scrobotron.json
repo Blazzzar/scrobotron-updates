@@ -1,0 +1,24 @@
+{
+	"name": "Scrobotron",
+	"slug": "scrobotron",
+	"homepage": "https://github.com/Blazzzar/scrobotron",
+	"channels": {
+		"stable": {
+			"version": "1.7.0",
+			"requires": "6.0",
+			"tested": "6.8",
+			"requires_php": "7.4",
+			"download_url": "https://blazzzar.github.io/scrobotron-updates/zips/scrobotron-v1.7.0.zip",
+			"sections": {
+				"changelog": "<h4>1.7.0</h4><p>Self-updater added: Scrobotron now updates itself from its own GitHub release channel (STEMMAXXER/WeIdea pipeline) — check-now, stable/beta channel switch, and one-click rollback on the Plugins screen. No app changes. This build is installed manually once; everything after rides the pipeline.</p>"
+			}
+		}
+	},
+	"releases": [
+		{
+			"version": "1.7.0",
+			"released": "2026-07-20",
+			"download_url": "https://blazzzar.github.io/scrobotron-updates/zips/scrobotron-v1.7.0.zip"
+		}
+	]
+}
