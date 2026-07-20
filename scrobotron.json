@@ -12,9 +12,24 @@
 			"sections": {
 				"changelog": "<h4>1.7.0</h4><p>Self-updater added: Scrobotron now updates itself from its own GitHub release channel (STEMMAXXER/WeIdea pipeline) — check-now, stable/beta channel switch, and one-click rollback on the Plugins screen. No app changes. This build is installed manually once; everything after rides the pipeline.</p>"
 			}
+		},
+		"beta": {
+			"version": "2.0.0-beta.1",
+			"requires": "6.0",
+			"tested": "6.8",
+			"requires_php": "7.4",
+			"download_url": "https://blazzzar.github.io/scrobotron-updates/zips/scrobotron-v2.0.0-beta.1.zip",
+			"sections": {
+				"changelog": "<h4>2.0.0-beta.1</h4><p>The assimilation flow: a \"PREPARE TO BE ASSIMILATED\" splash gate, capture/assimilation stage theatre (scan beam, hex lattice, status console, stamps), a Shift+W workbench (app theme incl. logo/display font + caption defaults), four new robotic caption fonts (Dotmatrix/LCD/Stencil/Mecha) plus a classic Subtitle style, capture-by-URL and optional Tenor GIF search, and the ghost underlay is now OFF by default (workbench opt-in) — the full-caption \"shadow underlay\" glitch is gone.</p>"
+			}
 		}
 	},
 	"releases": [
+		{
+			"version": "2.0.0-beta.1",
+			"released": "2026-07-20",
+			"download_url": "https://blazzzar.github.io/scrobotron-updates/zips/scrobotron-v2.0.0-beta.1.zip"
+		},
 		{
 			"version": "1.7.0",
 			"released": "2026-07-20",
